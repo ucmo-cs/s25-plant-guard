@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+.pnpm/
+.vite/
+
+# production
+dist/
+build/
+
+# environment
+.env*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# system
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# IDEs
+.idea/
+*.sw?
+
+# TypeScript cache
+*.tsbuildinfo
+
+# testing
+coverage/
+*.log
+
+# optional cache folders
+.cache/
+vite.cache/
